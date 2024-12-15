@@ -44,6 +44,9 @@ header .wrapper nav ul{
 
 }
 
+ 
+    
+ 
 
 /* FAO */
 
@@ -159,6 +162,7 @@ header .wrapper nav ul li a{
 .slider{
     padding: 12rem 0;
     overflow: hidden;
+    
 }
 
 .slider .slide-track{
@@ -167,7 +171,7 @@ header .wrapper nav ul li a{
     align-items: center;
     gap: 8rem;
     animation: scroll 50s linear forwards;
-    transition: 1s;
+    
 }
 
 .slider .slide-track:hover{

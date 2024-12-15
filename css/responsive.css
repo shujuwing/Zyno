@@ -17,6 +17,8 @@
         border-radius: 14px;
         position: relative;
     }
+
+   
 }
 
 @media screen and (max-width: 800px){
@@ -24,5 +26,16 @@
         display: none;
         
     }
+   
 
+    header section .wrapper nav button{
+        display: none;
+    }
+
+    header section .wrapper nav .menu{
+        display: block;
+        font-size: 40px;
+        color: var(--txt_col);
+    }
+    
 }
